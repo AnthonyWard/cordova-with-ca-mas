@@ -1,0 +1,14 @@
+{
+  "name": "cordova-plugin-mas-core-pod",
+  "version": "0.1.6",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-mas-core-pod",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "MIT"
+}

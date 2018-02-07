@@ -14,5 +14,13 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-mas-core-pod": {
+        "source": {
+            "type": "local",
+            "path": "/Users/anthonyward/git/others/cordova-mas-2/node_modules/cordova-plugin-mas-core-pod"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
