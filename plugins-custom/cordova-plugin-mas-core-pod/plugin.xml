@@ -4,4 +4,7 @@
     <js-module name="cordova-plugin-mas-core-pod" src="www/cordova-plugin-mas-core-pod.js">
         <clobbers target="cordova-plugin-mas-core-pod" />
     </js-module>
+    <platform name="ios">
+        <framework src="MASFoundation" type="podspec" spec="~> 1.0.0" />
+    </platform>
 </plugin>
