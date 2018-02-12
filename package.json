@@ -10,6 +10,7 @@
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
     "dependencies": {
+        "cordova-android": "^6.2.3",
         "cordova-ios": "^4.5.4",
         "cordova-plugin-mas-core": "^1.6.0",
         "cordova-plugin-mas-core-pod": "file:plugins-custom/cordova-plugin-mas-core-pod",
@@ -22,6 +23,7 @@
             "cordova-plugin-mas-core-pod": {}
         },
         "platforms": [
+            "android",
             "ios"
         ]
     }
