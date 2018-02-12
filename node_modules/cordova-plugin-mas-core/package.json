@@ -1,19 +1,19 @@
 {
-  "_from": "cordova-plugin-mas-core",
+  "_from": "cordova-plugin-mas-core@^1.6.0",
   "_id": "cordova-plugin-mas-core@1.6.0",
   "_inBundle": false,
   "_integrity": "sha512-+8PC1sUDbRkUgJhSf8UlCk/q9Yffx3LjWyzGei3k+VteKGkmZ41314ZDmV0XbwfhuUQPIwYLUVeN3hfJXJ013Q==",
   "_location": "/cordova-plugin-mas-core",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-mas-core",
+    "raw": "cordova-plugin-mas-core@^1.6.0",
     "name": "cordova-plugin-mas-core",
     "escapedName": "cordova-plugin-mas-core",
-    "rawSpec": "",
+    "rawSpec": "^1.6.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^1.6.0"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-mas-core/-/cordova-plugin-mas-core-1.6.0.tgz",
   "_shasum": "9e21da16044349dcd9704e2321c0283d6eae5e66",
-  "_spec": "cordova-plugin-mas-core",
+  "_spec": "cordova-plugin-mas-core@^1.6.0",
   "_where": "/Users/anthonyward/git/others/cordova-mas-2/node_modules",
   "author": {
     "name": "CA Technologies Ltd."

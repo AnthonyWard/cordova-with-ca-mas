@@ -1,10 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="cordova-plugin-mas-core-pod" version="0.1.6" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>cordova-plugin-mas-core-pod</name>
-    <js-module name="cordova-plugin-mas-core-pod" src="www/cordova-plugin-mas-core-pod.js">
-        <clobbers target="cordova-plugin-mas-core-pod" />
-    </js-module>
+    
     <platform name="ios">
-        <framework src="MASFoundation" type="podspec" spec="~> 1.0.0" />
+            
+        <dependency id="cordova-plugin-cocoapod-support"/>
+
+        <pods-config ios-min-version="9.0" use-frameworks="true">
+            <source url="https://github.com/CocoaPods/Specs.git" />
+        </pods-config>
+        
+        <pod name="MASFoundation" version="1.6.0" />
+
     </platform>
+
 </plugin>
