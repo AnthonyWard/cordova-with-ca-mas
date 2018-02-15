@@ -7,7 +7,7 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-cocoapod-support": {
+        "cordova-plugin-mas-core": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
         "cordova-plugin-whitelist": {
@@ -17,5 +17,9 @@
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-cocoapod-support": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        }
+    }
 }

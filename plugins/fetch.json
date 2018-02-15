@@ -1,12 +1,4 @@
 {
-    "cordova-plugin-cocoapod-support": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-cocoapod-support@^1.3.0"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-mas-core": {
         "source": {
             "type": "registry",
@@ -29,6 +21,14 @@
             "path": "/Users/anthonyward/git/others/cordova-mas-2/node_modules/cordova-plugin-mas-core-pod"
         },
         "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-cocoapod-support": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-cocoapod-support"
+        },
+        "is_top_level": false,
         "variables": {}
     }
 }
