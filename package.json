@@ -14,7 +14,7 @@
         "cordova-ios": "^4.5.4",
         "cordova-plugin-cocoapod-support": "^1.3.0",
         "cordova-plugin-mas-core": "^1.6.0",
-        "cordova-plugin-mas-core-pod": "file:plugins-custom/cordova-plugin-mas-core-pod",
+        "cordova-plugin-mas-core-pod": "file:../plugins-custom/cordova-plugin-mas-core-pod",
         "cordova-plugin-whitelist": "^1.3.3"
     },
     "cordova": {

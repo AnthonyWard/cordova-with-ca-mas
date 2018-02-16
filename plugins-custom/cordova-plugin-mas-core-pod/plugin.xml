@@ -14,4 +14,10 @@
 
     </platform>
 
+    <platform name="android">
+
+        <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
+
+    </platform>
+
 </plugin>
