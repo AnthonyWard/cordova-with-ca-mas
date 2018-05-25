@@ -8,4 +8,6 @@ This plugin should pull down the MASFoundation 1.6 SDK, and MAS UI 1.6, and thei
 
 `plugman createpackagejson ./plugins-custom/<name>`
 
-> Use NPM 4 - 5 give package.json not found when re-preparing in cordova
+> Use NPM 4. NPM 5+ gives package.json not found when re-preparing in cordova
+
+> Delete `plugins`, `platforms`, `node_modules` and `package.json` if Cordova gets itself in a confused state while building
