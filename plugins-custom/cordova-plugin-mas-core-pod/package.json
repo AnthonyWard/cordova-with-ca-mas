@@ -7,8 +7,10 @@
     "platforms": ["ios", "android"]
   },
   "keywords": [
-    "ecosystem:cordova"
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
   ],
-  "author": "",
+  "author": "Anthony Ward",
   "license": "MIT"
 }
