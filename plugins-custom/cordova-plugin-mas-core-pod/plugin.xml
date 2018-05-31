@@ -10,7 +10,7 @@
             <source url="https://github.com/CocoaPods/Specs.git" />
         </pods-config>
         
-        <pod name="MASFoundation" version="1.6.10" />
+        <pod name="MASFoundation" version="1.6.00" />
 
     </platform>
 
