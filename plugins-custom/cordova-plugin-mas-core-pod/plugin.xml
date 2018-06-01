@@ -12,6 +12,10 @@
         
         <pod name="MASFoundation" version="1.6.00" />
 
+        <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+            <string>The application needs a location to use the MAS backend services</string>
+        </edit-config>
+
     </platform>
 
     <platform name="android">
