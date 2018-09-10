@@ -21,6 +21,9 @@
     </platform>
     <platform name="ios">
         <resource-file src="www/ios_msso_config.json" target="msso_config.json" />
+        <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+            <string>The application needs a location to use the MAS backend services</string>
+        </edit-config>
         <preference name="deployment-target" value="9.0" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
